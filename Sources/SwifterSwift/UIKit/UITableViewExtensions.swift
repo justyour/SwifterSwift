@@ -53,7 +53,7 @@ public extension UITableView {
         UIView.animate(withDuration: 0, animations: {
             self.reloadData()
         }, completion: { _ in
-            completion()
+            c()
         })
     }
 
